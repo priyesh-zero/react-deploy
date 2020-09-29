@@ -1,7 +1,6 @@
 {
   "name": "try-typescript",
   "version": "0.1.0",
-  "homepage": "https://priyesh-zero.github.io/react-deploy/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -22,7 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
